@@ -1,0 +1,19 @@
+group: pldrllm_zeroshot
+group_alias: PLDR-LLM Zero Shot
+task:
+  - task: arc_easy
+    num_fewshot: 0
+  - task: arc_challenge
+    num_fewshot: 0
+  - task: piqa
+    num_fewshot: 0
+  - task: social_iqa
+    num_fewshot: 0
+  - task: hellaswag
+    num_fewshot: 0
+  - task: openbookqa
+    num_fewshot: 0
+  - task: winogrande
+    num_fewshot: 0
+  - task: truthfulqa_mc2
+    num_fewshot: 0
