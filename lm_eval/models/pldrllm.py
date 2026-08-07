@@ -117,8 +117,8 @@ class pldrllm(LM):
         self.temperature=temperature
         self.top_p=top_p
         self.top_k=top_k
-        self.enable_kvcache=enable_kvcache,
-        self.enable_Gcache=enable_Gcache,
+        self.enable_kvcache=enable_kvcache
+        self.enable_Gcache=enable_Gcache
         self.model_type=model_type
         self.Gcachelst_init=Gcachelst_init
         if device is None or device.startswith('cuda'):
